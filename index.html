@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSwap - განვითარდით ერთად</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Skill<span>Swap</span></div>
+        <nav class="nav-links">
+            <a href="#hero">მთავარი</a>
+            <a href="#about">პროექტის შესახებ</a>
+            <a href="#mentors">მენტორები</a>
+        </nav>
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>გაუზიარე ცოდნა, ისწავლე <span class="highlight">უფასოდ</span></h1>
+                <p>ასწავლე ის, რაც კარგად იცი და სანაცვლოდ შეიძინე ახალი უნარები რეალური ადამიანებისგან ბარტერული პრინციპით.</p>
+                <a href="#mentors" class="btn-main">დაიწყე ახლავე</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://illustrations.popsy.co/blue/remote-work.svg" alt="Skill Sharing Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>პროექტის მისია</h2>
+            <p>SkillSwap შეიქმნა განათლების ხელმისაწვდომობის გასაზრდელად</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>01. პრობლემა</h3>
+                <p>პროფესიული კურსები და რეპეტიტორები ძვირია, რაც სტუდენტებს უზღუდავს განვითარებას ფინანსების გამო.</p>
+            </div>
+            <div class="about-card">
+                <h3>02. გადაჭრა</h3>
+                <p>პლატფორმა აკავშირებს ადამიანებს. შენ ასწავლი პროგრამირებას, სანაცვლოდ კი უფასოდ სწავლობ გიტარას.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentors" class="mentors-section">
+        <div class="section-header">
+            <h2>აღმოაჩინე ნიჭიერი მენტორები</h2>
+            <p>შეუერთდი ჩვენს საზოგადოებას და იპოვე შენი მომავალი მენტორი დღესვე</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="🔍 მოძებნე სახელით ან პროფესიით...">
+        </div>
+
+        <div id="mentors-grid" class="mentors-grid">
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 SkillSwap. საფინალო პროექტი. ყველა უფლება დაცულია.</p>
+    </footer>
+
+    <div id="cookie-bar" class="cookie-bar">
+        <p>🍪 ეს საიტი იყენებს ლოკალურ მეხსიერებას თქვენი გამოცდილების გასაუმჯობესებლად.</p>
+        <button id="accept-cookie">ვეთანხმები</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
